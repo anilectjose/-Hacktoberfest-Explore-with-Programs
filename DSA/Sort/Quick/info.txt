@@ -1,0 +1,19 @@
+⚡ Quick Sort
+📖 Description
+
+Type: Divide & Conquer algorithm
+
+Idea:
+Choose a pivot element.
+Partition the array so elements smaller than pivot go left, and elements greater than pivot go right.
+Recursively apply Quick Sort to subarrays.
+
+Time Complexity:
+Best Case: O(n log n)
+Average Case: O(n log n)
+Worst Case: O(n²) (when pivot is always smallest/largest).
+Space Complexity: O(log n) (recursive stack).
+Stability: ❌ Not stable.
+
+📌 When to use?
+Fast in practice for large datasets.
